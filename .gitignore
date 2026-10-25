@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+.venv/
+**/data/
+**/.obsidian/
+**/runtime/sessions/
+**/runtime/*.sqlite3*
+**/cognitive-inbox/
+**/knowledge-deltas/

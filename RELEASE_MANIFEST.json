@@ -1,0 +1,207 @@
+{
+  "version": "0.1.0-rc1",
+  "date": "2026-10-25",
+  "history_inherited": false,
+  "private_or_runtime_data_included": false,
+  "provenance": "academic-dashboard + portable cognitive-engine code; no learning data",
+  "exclusions": [
+    "personal obsidian vault, learning hub content, private data and experiments"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/verify.yml",
+      "sha256": "b1447554b87643228ca65f8fa4bb69e2df7ced9c1af049f8c4d14c5aa9d5206d",
+      "bytes": 378
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "b669e86e8e6355c2eca4cc9f26489e54280c7f4723257461426c561bb9178a79",
+      "bytes": 155
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "67b3052d91d092774c66b6e58cf0bb2c27642fee87b1f6ca0780b711070470d4",
+      "bytes": 1064
+    },
+    {
+      "path": "PUBLICATION_GATE.md",
+      "sha256": "51306f3ae6cc47f04daf8733ae212242efa86f4eac36c4b64e59bc3b5221b013",
+      "bytes": 715
+    },
+    {
+      "path": "README.md",
+      "sha256": "765288d9f28a0197e9d340f5eb21dfb3100cfc380611c1ef259b104d1acddedb",
+      "bytes": 1916
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "23cf2299e871ae6d8012993eb3495e9011a4f05fe56831bbc3ff18e3f96c2d18",
+      "bytes": 844
+    },
+    {
+      "path": "academic-dashboard/.gitignore",
+      "sha256": "0b982b8cb08125fdd2d02fb04b8aaa0f1e82a1ccce204a4514c8455d90e46f77",
+      "bytes": 35
+    },
+    {
+      "path": "academic-dashboard/README.md",
+      "sha256": "1b3f70621890f2b2f9080faab429474385ad31d7a80f0d2063808270ef4e760c",
+      "bytes": 4460
+    },
+    {
+      "path": "academic-dashboard/app.py",
+      "sha256": "c483f66a06aa3f3693d883b7bd7d151e34c6e312da06abeaa6ae2bd9d9f7c9e2",
+      "bytes": 14843
+    },
+    {
+      "path": "academic-dashboard/growth.py",
+      "sha256": "ccdce0f0394ac77c47901d946bc9bdb34ab2997f4ee44eaa420123aa32b154a4",
+      "bytes": 8513
+    },
+    {
+      "path": "academic-dashboard/static/growth.js",
+      "sha256": "c077a01eb5c572b47f5c45e68ce5406b6ccda6a19600714953671ad736b5d7bc",
+      "bytes": 8970
+    },
+    {
+      "path": "academic-dashboard/static/index.html",
+      "sha256": "7e5433eeb6773fd13780f0efb03b3fd9223c768730254ce345fcd9caeb95cbe5",
+      "bytes": 15494
+    },
+    {
+      "path": "academic-dashboard/tests/test_app.py",
+      "sha256": "24f94feea1bdd592b7686a35359e58daff6f447d378a73d107485715c37f1a7c",
+      "bytes": 10338
+    },
+    {
+      "path": "academic-dashboard/tests/test_growth.py",
+      "sha256": "85703693dc7dcf24d686916a20c927ccded85ddbed6af5f33dd0bfa5810a71ac",
+      "bytes": 10445
+    },
+    {
+      "path": "cognitive-engine/protocols/cognitive-trace.md",
+      "sha256": "3753c2c5921decc840f2350581dbc953535f13cea5c5f48db7150e182ffdbb1b",
+      "bytes": 2111
+    },
+    {
+      "path": "cognitive-engine/protocols/human-review.md",
+      "sha256": "035c6483dcddd92c32ce82aef8b55a560a86979d2c10044d8c9e25beb437574f",
+      "bytes": 6143
+    },
+    {
+      "path": "cognitive-engine/protocols/knowledge-commit.md",
+      "sha256": "780a561c8911e9fdeeacab5fb68853c53edd2cd46220fd97d1ec1947c7de3db6",
+      "bytes": 1931
+    },
+    {
+      "path": "cognitive-engine/protocols/knowledge-delta.md",
+      "sha256": "b87c050a1bad204d8ea3ecc59e1ff4a9085b721bcfed75c90d976ba79525a7e8",
+      "bytes": 1304
+    },
+    {
+      "path": "cognitive-engine/runtime/learning-threads.example.yaml",
+      "sha256": "b728e8cd7606abde341283df303a39130d8729d7d9318a70f94a870078940da5",
+      "bytes": 153
+    },
+    {
+      "path": "cognitive-engine/scripts/audit_change_set.py",
+      "sha256": "111a4e4c28de50fa6ab1f14fc42d5bf310e5b4daf4969b634ef8c3753dcd0763",
+      "bytes": 6637
+    },
+    {
+      "path": "cognitive-engine/scripts/backfill_state.py",
+      "sha256": "ed9f53589c79eecbd5f1959bfbeb77d7f00104e1ca34ec92fb8d5fa8f703ff6c",
+      "bytes": 4190
+    },
+    {
+      "path": "cognitive-engine/scripts/capture_gateway.py",
+      "sha256": "53199a738fd6711d559a3856112da22b26e0d9424b4788abb7dbccdd44d5d31c",
+      "bytes": 45244
+    },
+    {
+      "path": "cognitive-engine/scripts/distiller.py",
+      "sha256": "6328471a7e0f69d101110b2ce1294fc557425a6715933015f6705dcda61d5877",
+      "bytes": 14519
+    },
+    {
+      "path": "cognitive-engine/scripts/import_chatgpt_export.py",
+      "sha256": "ec307a4b7549a0b1abe286d1eae12110f8a5648c64adc73fedd3ab9e58c787cf",
+      "bytes": 13789
+    },
+    {
+      "path": "cognitive-engine/scripts/knowledge_manager.py",
+      "sha256": "0f994bf3d3d8e37627eab97e29358b2bd5c8769bbfc029de7d055fe980a80776",
+      "bytes": 20278
+    },
+    {
+      "path": "cognitive-engine/scripts/learning_router.py",
+      "sha256": "9d924bcb03e0fd8b0884eebdec721b23f034268ff65981ea1738f0cee5f55c8c",
+      "bytes": 15398
+    },
+    {
+      "path": "cognitive-engine/scripts/semantic_session_router.py",
+      "sha256": "997837ad12128893c70ce9d2c5e5ccb0187fe5e99efe80994b369b2ccd4ccba3",
+      "bytes": 5847
+    },
+    {
+      "path": "cognitive-engine/scripts/session_capture.py",
+      "sha256": "9f91cf5b1c3552d8d95acc173b986e95dc0a301fd3a8c8daa91429e69511fa89",
+      "bytes": 23505
+    },
+    {
+      "path": "cognitive-engine/tests/test_backfill_state.py",
+      "sha256": "f650a222b688370504a9f22137f436194099d2a5a3aa6c802ca861b8e0556730",
+      "bytes": 1350
+    },
+    {
+      "path": "cognitive-engine/tests/test_capture_gateway.py",
+      "sha256": "2d25f71d5331f2b39febacaaacf2e6e25a990dcfb35414b6ce12a7470c71268d",
+      "bytes": 16498
+    },
+    {
+      "path": "cognitive-engine/tests/test_change_set_evidence_audit.py",
+      "sha256": "82b0c2b59a9075fea9514e1abcad6d75aa60fa0544af5e52a8301965ba553012",
+      "bytes": 4021
+    },
+    {
+      "path": "cognitive-engine/tests/test_distiller.py",
+      "sha256": "2d08746dbc26e017c0e44a1fbb49d6e41104bed0db7623f2db4363db59b95934",
+      "bytes": 5848
+    },
+    {
+      "path": "cognitive-engine/tests/test_import_chatgpt_export.py",
+      "sha256": "abb846557c20ad6b9d404ac50721abc12747dad56c19009091360b56374a1b1c",
+      "bytes": 10312
+    },
+    {
+      "path": "cognitive-engine/tests/test_knowledge_manager.py",
+      "sha256": "22c367ba8aa83690e7f7b5d5602643850b258f36801d2fae4ec414e6b2f09a8e",
+      "bytes": 9361
+    },
+    {
+      "path": "cognitive-engine/tests/test_learning_router.py",
+      "sha256": "cb976ed3b403bd35453e52f041b7c58e78419a489be47afba7de3a070760d907",
+      "bytes": 5046
+    },
+    {
+      "path": "cognitive-engine/tests/test_semantic_session_router.py",
+      "sha256": "8b644c22bb0a1fd48af0230fa3f5c599749f4fb1c2a9acb5f03d0561fc562ee2",
+      "bytes": 3287
+    },
+    {
+      "path": "cognitive-engine/tests/test_session_capture.py",
+      "sha256": "badc73f03d91a4a5ec0e60c48c78810e11c39419b6358cda6dd85d9f6bc7341b",
+      "bytes": 6764
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "865bbefc83398c2d53d4d494e8c0ad2302c93e657b78b860a1eba3ac71044309",
+      "bytes": 13
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "sha256": "291578aa994eb15fc0a83f8199e0bd80138d6611af88aac81b0db975b94c2edc",
+      "bytes": 1805
+    }
+  ]
+}

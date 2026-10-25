@@ -1,0 +1,4 @@
+# Example schema only. The live runtime/learning-threads.yaml is ephemeral and ignored by Git.
+version: 2
+learning_threads: {}
+last_touched_thread: null
