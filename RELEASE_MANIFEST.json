@@ -19,19 +19,29 @@
       "bytes": 155
     },
     {
+      "path": "CONTRIBUTING.md",
+      "sha256": "046af9840ef283289d986357e8754c71cf48a4e30ec967e173dd0ba064a40653",
+      "bytes": 1309
+    },
+    {
       "path": "LICENSE",
       "sha256": "67b3052d91d092774c66b6e58cf0bb2c27642fee87b1f6ca0780b711070470d4",
       "bytes": 1064
     },
     {
-      "path": "PUBLICATION_GATE.md",
-      "sha256": "51306f3ae6cc47f04daf8733ae212242efa86f4eac36c4b64e59bc3b5221b013",
-      "bytes": 715
+      "path": "README.md",
+      "sha256": "8da049807adae7b0363b518845b729d60c360e1a039ff096821c2aa9d4e61203",
+      "bytes": 5360
     },
     {
-      "path": "README.md",
-      "sha256": "765288d9f28a0197e9d340f5eb21dfb3100cfc380611c1ef259b104d1acddedb",
-      "bytes": 1916
+      "path": "RELEASE_SCOPE.md",
+      "sha256": "c76b88f5f89295db7d9f01944c6dbd6146555d02fc1eccda21b102381011f827",
+      "bytes": 1406
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "4e1b94be731525ebef737ee2d227ea33dd3a93bb3f0224a2e8fefebcf3d9927c",
+      "bytes": 1162
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -45,8 +55,8 @@
     },
     {
       "path": "academic-dashboard/README.md",
-      "sha256": "1b3f70621890f2b2f9080faab429474385ad31d7a80f0d2063808270ef4e760c",
-      "bytes": 4460
+      "sha256": "2f6dceee54ff1f0e2bce459bca362e3217af7501898eedfc5c7b6f2b70b9c057",
+      "bytes": 4665
     },
     {
       "path": "academic-dashboard/app.py",

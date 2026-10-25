@@ -4,8 +4,10 @@
 
 ## 本地运行
 
+从 [公开仓库](https://github.com/Away928/knowledge-system-public-core) 下载或克隆代码后，切换到该项目目录。本项目与原作者的本地私有知识库无依赖关系。
+
 ```bash
-cd ~/Knowledge-System/academic-dashboard
+cd knowledge-system-public-core/academic-dashboard
 python3 app.py serve --port 8787
 # 用户自行访问 http://127.0.0.1:8787
 python3 -m unittest discover -s tests -v
