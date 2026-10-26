@@ -67,6 +67,8 @@ See [Release Scope](RELEASE_SCOPE.md) for the precise v0.1 boundary and [Contrib
 
 ## 中文简介
 
+**项目状态**：持续开发中。后续将持续完善功能、文档及实际应用案例。
+
 Knowledge System 是一个面向自主学习和知识管理的本地工具集，将学习任务、学习证据和知识整理组织成可追踪、可复盘的流程。当前公开版本包含两个模块。
 
 ### 核心模块
