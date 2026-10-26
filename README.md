@@ -67,11 +67,17 @@ See [Release Scope](RELEASE_SCOPE.md) for the precise v0.1 boundary and [Contrib
 
 ## 中文简介
 
-Knowledge System Public Core 是从个人知识系统中提取的**可独立复现的本地核心版本**，不包含个人知识库或课程资料。
+Knowledge System 是一个面向自主学习和知识管理的本地工具集，将学习任务、学习证据和知识整理组织成可追踪、可复盘的流程。当前公开版本包含两个模块。
 
-- **Academic Dashboard**：管理八个学科的任务、证据、经验值和等级；等级变更需要人工审核，不能视为自动认证。
-- **Cognitive Engine**：提供学习会话记录、知识提炼、变更提案和审核工具。部分流程需要用户自行准备 Obsidian Vault。
-- **本地启动**：`cd academic-dashboard && python3 app.py serve --port 8787`，然后访问 `http://127.0.0.1:8787`。
-- **验证**：安装测试依赖后运行 `python3 scripts/verify_release.py`；v0.1 的 94 项离线测试全部通过。
+### 核心模块
 
-这是 **v0.1 公开核心预发布版**，不是面向公网的多用户学习平台。不要把真实个人资料或有版权限制的课件提交到公开仓库。
+1. **Academic Dashboard**：管理八个学科的学习任务、评估记录、证据以及经验值和等级；学习成果由使用者审核确认。
+2. **Cognitive Engine**：记录学习会话，整理学习线索，提炼知识，并为知识库更新生成待审核的修改建议。
+
+### 如何使用
+
+- **体验学习面板**：克隆仓库后进入 `academic-dashboard`，运行 `python3 app.py serve --port 8787`，在本机浏览器打开 [http://127.0.0.1:8787](http://127.0.0.1:8787)。
+- **探索知识处理工具**：查看 `cognitive-engine/scripts/` 中的 Python 脚本；部分流程需要自行准备学习资料或 Obsidian 知识库。
+- **详细说明**：参阅 [Academic Dashboard](academic-dashboard/README.md) 与上方英文使用指南。
+
+公开版本不包含个人笔记、完整 Obsidian Vault 或私人学习数据。
